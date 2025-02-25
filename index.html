@@ -7,20 +7,19 @@
     <title>SheCodes AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <h1>Welcome to the SheCodes AI Poem Generator!</h1>
 
     <main>
         <form>
-            <input type="text" placeholder="Enter the theme here" autocomplete="off" autofocus="true" required="true">
-            <input type="submit">
+            <input type="text" placeholder="Enter the theme here" autocomplete="off" autofocus="true" required="true" class="prompt">
+            <input type="submit" class="send">
         </form>
 
-        <div>
-            <p>
-                Two roads diverged in a yellow wood,
-                <br>
-                And sorry I could not travel both
-            </p>
+        <div class="poem">
+            Two roads diverged in a yellow wood,
+            <br>
+            And sorry I could not travel both
         </div>
     </main>
 
@@ -31,5 +30,6 @@
     </footer>
 
     <script src="src/index.js"></script>
+</div>
 </body>
 </html>
