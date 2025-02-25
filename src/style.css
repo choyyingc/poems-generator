@@ -33,7 +33,7 @@ body {
     margin-bottom: 30px;
   }
   
-  .prompt {
+  .poem-theme {
     padding: 16px;
     border: 1px solid #42b883;
     width: 80%;
@@ -60,6 +60,12 @@ body {
     line-height: 2;
     border-left: 3px solid #ffa952;
     color: #272044;
+    font-style: bold;
+  }
+
+  .poem strong {
+    color: #ffa952;
+    font-style: italic;
   }
   
   footer {
