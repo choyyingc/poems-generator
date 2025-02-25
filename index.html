@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>SheCodes AI Poem Generator</title>
 </head>
@@ -11,15 +12,12 @@
     <h1>Welcome to the SheCodes AI Poem Generator!</h1>
 
     <main>
-        <form>
-            <input type="text" placeholder="Enter the theme here" autocomplete="off" autofocus="true" required="true" class="prompt">
+        <form id="poem-generator">
+            <input type="text" placeholder="Enter the theme of the poem here" autocomplete="off" autofocus="true" required="true" class="prompt">
             <input type="submit" class="send">
         </form>
 
-        <div class="poem">
-            Two roads diverged in a yellow wood,
-            <br>
-            And sorry I could not travel both
+        <div class="poem" id="poem">
         </div>
     </main>
 
