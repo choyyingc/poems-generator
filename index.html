@@ -10,16 +10,23 @@
 </head>
 <body>
     <div class="container">
+        
     <h1>Welcome to the SheCodes AI Poem Generator!</h1>
-
     <main>
-        <form id="poem-generator">
-            <input type="text" id="theme" placeholder="Enter a keyword and I'll generate a poem for you" autocomplete="off" autofocus="true" required="true" class="poem-theme">
-            <input type="submit" class="send">
-        </form>
+        <div class="form-container">
+            <form id="poem-generator">
+                <input type="text" id="theme" placeholder="Enter a keyword and I'll generate a poem for you" autocomplete="off" autofocus="true" required="true" class="poem-theme">
+                <input type="submit" class="send">
+            </form>
 
-        <div class="poem" id="poem">
+            <div class="hint">
+                i.e. love, laugh, life
+            </div>
         </div>
+        
+        <div class="poem react" id="poem">
+        </div>
+
     </main>
 
     <footer>
